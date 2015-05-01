@@ -1,0 +1,64 @@
+\nonstopmode{}
+\documentclass[letterpaper]{book}
+\usepackage[times,inconsolata,hyper]{Rd}
+\usepackage{makeidx}
+\usepackage[utf8,latin1]{inputenc}
+% \usepackage{graphicx} % @USE GRAPHICX@
+\makeindex{}
+\begin{document}
+\chapter*{}
+\begin{center}
+{\textbf{\huge Package `BrownMotion'}}
+\par\bigskip{\large \today}
+\end{center}
+\begin{description}
+\raggedright{}
+\item[Version]\AsIs{1.1}
+\item[Author]\AsIs{Peigen Zhou}
+\item[Maintainer]\AsIs{Peigen Zhou	}\email{peigen@stat.wisc.edu}\AsIs{}
+\item[License]\AsIs{MIT}
+\item[Title]\AsIs{BrownMotion for homework}
+\item[Description]\AsIs{....as you see}
+\item[URL]\AsIs{}\url{https://github.com/BaconZhou/BrownMotion}\AsIs{}
+\item[Suggests]\AsIs{knitr, rmarkdown}
+\item[VignetteBuilder]\AsIs{knitr}
+\item[NeedsCompilation]\AsIs{no}
+\end{description}
+\Rdcontents{\R{} topics documented:}
+\inputencoding{utf8}
+\HeaderA{BrownMotion}{BrownMotion test for R package building process}{BrownMotion}
+%
+\begin{Description}\relax
+BrownMotion test for R package building process
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+BrownMotion(n = 100, distribution = "normal", sigma = 1, dim = 2)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{n}] Number of data.
+
+\item[\code{distribution}] "normal" or "T" represent normal distribution or T distribution.
+
+\item[\code{sigma}] standard deviation for normal distribution and t distribution.
+
+\item[\code{dim}] dimension for dataset.
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+return the dataset you want
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+y <- BrownMotion(10000)
+plot(y,type='l')
+\end{ExampleCode}
+\end{Examples}
+\printindex{}
+\end{document}
