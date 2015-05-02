@@ -2,3 +2,5 @@
 .RData
 .Rhistory
 test
+.ipynb_checkpoints
+BrownMotion.Rcheck
