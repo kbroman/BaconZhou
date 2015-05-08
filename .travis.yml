@@ -14,5 +14,5 @@ notifications:
     on_failure: change
 
 r_github_packages:
-  - hadley/assertthat
-  - klutometis/roxygen
+  - rstudio/rmarkdown
+  - hadley/testthat
