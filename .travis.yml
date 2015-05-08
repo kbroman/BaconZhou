@@ -16,3 +16,6 @@ notifications:
 r_github_packages:
   - rstudio/rmarkdown
   - hadley/testthat
+
+r_binary_packages:
+  - knitr
