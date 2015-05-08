@@ -1,3 +1,6 @@
 *.tar.gz
 .RData
 .Rhistory
+test
+.ipynb_checkpoints
+BrownMotion.Rcheck
