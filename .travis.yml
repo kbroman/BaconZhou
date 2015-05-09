@@ -1,0 +1,17 @@
+language: r
+
+warnings_are_errors: true
+
+sudo: required
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
+
+r_github_packages:
+  - rstudio/rmarkdown
+  - hadley/testthat
+
+r_binary_packages:
+  - knitr

@@ -6,5 +6,5 @@ License: MIT + file LICENSE
 Title: BrownMotion for homework
 Description: ....as you see
 URL: https://github.com/BaconZhou/BrownMotion
-Suggests: knitr, rmarkdown, testthat
+Suggests: knitr, rmarkdown, testthat, devtools
 VignetteBuilder: knitr

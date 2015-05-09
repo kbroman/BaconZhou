@@ -1,3 +1,2 @@
-library(testthat)
-library(BrownMotion)
+library('testthat')
 test_check("BrownMotion")
